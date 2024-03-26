@@ -3,7 +3,6 @@ from PyQt5.QtWidgets import (
     QApplication,
     QMainWindow,
     QLabel,
-    QVBoxLayout,
     QFrame,
     QPushButton,
     QFileDialog,
@@ -11,7 +10,7 @@ from PyQt5.QtWidgets import (
     QGridLayout,
 )
 
-from PyQt5.QtCore import Qt, QTimer
+from PyQt5.QtCore import Qt
 
 from Capturer import Capture
 
